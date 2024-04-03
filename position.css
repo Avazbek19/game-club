@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
+    background-image: url('img/gm5790.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.darkbackg {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+
+.position-z {
+    position: relative;
+    z-index: 3;
+}
+
+.row_1 {
+    width: 30%;
+}
+
+.row_2 {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.unordered {
+    list-style-type: none;
+}
+
+.list {
+    display: inline-block;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+    font-size: 23px;
+}
+
+.bigtext {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.spangame {
+    margin-left: 5px;
+    color: darkorange;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.extra_menu {
+    display: none;
+    list-style-type: none;
+}
+
+.drop_menu:hover .extra_menu {
+    display: block;
+    position: absolute;
+    background-color: darkgoldenrod;
+}
+
+.extra_menu li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 15px 20px;
+    transition: 0.5s;
+}
+
+.extra_menu li a:hover {
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.section_2 {
+    background-color: #060405;
+}
+
+.main_2 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    padding-top: 30px;
+}
+
+.bolish_1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bolish_2 hr {
+    color: orange;
+}
+
+.div {
+    border-top: 4px solid orange;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+.center_2 {
+    display: flex;
+    margin-top: 27px;
+}
+
+.bolish_3 {
+    width: 50%;
+}
+
+.bolish_4 {
+    width: 50%;
+}
+
+.p_1 {
+    color: #fff;
+}
+
+.img_1 {
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.img_2 {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.section_3 {
+    background-color: #060405;
+}
+
+.main_3 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.p_2 {
+    color: #fff;
+}
+
+.lower-bar {
+    color: #fff;
+    margin: 20px 0px 10px 0px;
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+
+.a_1 {
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.upper-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-bar_1 {
+    width: 40%;
+} 
+
+.mini-bar_2 {
+    width: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.img_3 {
+    width: 100%;
+}
+
+.hr_1 {
+    width: 35px;
+    border: 2px solid orange;
+}
+
+.bar_1talik {
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+.bar_2talik {
+    width: 50%;
+}
+
+.bar_2_talik {
+    display: flex;
+    width: calc(50%- 20px);
+}
+
+.bar_3talik {
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.a_2 {
+    color: orange;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.mini-bar_3 {
+    width: 40%;
+}
+
+.mini-bar_4 {
+    width: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.img_4 {
+    width: 100%;
+}
+
+.bar_talik {
+    display: flex;
+    margin-top: 10px;
+}
+
+.mini-bar_5 {
+    width: 40%;
+}
+
+.mini-bar_6 {
+    width: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.img_5 {
+    width: 100%;
+}
+
+.mini-bar_7 {
+    width: 40%;
+}
+
+.mini-bar_8 {
+    width: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.img_6 {
+    width: 100%;
+}
+
+.section_4 {
+    background-color: #060405;
+}
+
+.main_4 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fazertim {
+    display: flex;
+}
+
+.childtim {
+    width: calc(100/4 - 10px);
+    margin: 5px;
+    height: 300px;
+}
+
+.img_all {
+    width: 100%;
+}
+
+.colortim {
+    color: #fff;
+    text-align: center;
+}
+
+.colortim_2 {
+    color: grey;
+    text-align: center;
+    font-size: 11px;
+}
+
+.section_5 {
+    background-color: #060405;
+}
+
+.main_5 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.shrift {
+    color: #fff;
+}
+
+.chiziq {
+    border: 1.5px solid orange;
+    width: 40px;
+}
+
+.text {
+    color: #fff;
+}
+
+.fazerstudio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.childstudio {
+    width: 100%;
+    display: flex;
+}
+
+.box3 {
+    width: calc(100%/3 - 10px);
+    margin: 5px;
+}
+
+.box33 {
+    width: calc(100%/3 - 10px);
+    margin: 5px;
+}
+
+.section_6 {
+    background-color: #060405;
+}
+
+.main_6 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.fazerjob {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.childjob {
+    width: calc(100%/3 - 30px);
+    margin: 5px;
+    border-left: 1px solid orange;
+}
+
+.forh5 {
+    color: orange;
+    text-align: center;
+}
+
+.job {
+    text-align: center;
+}
+
+.button {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 110px;
+    padding: 5px;
+}
+
+.follow {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button_1 {
+    padding: 10px;
+    color: grey;
+    border: none;
+}
+
+.button_2 {
+    background-color: orange;
+    color: white;
+    margin-left: 0px;
+    padding: 10px;
+    border: none;
+}
+
+.cha {
+    margin: 0 auto; 
+}
+
+.section_7 {
+    background-color: #060405;
+}
+
+.main_7 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.menyoo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theend {
+    width: calc(100%/2 - 40px);
+    margin: 20px;
+    background-color: black;
+}
+
+.forname {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color: black;
+    height: 50px;
+    color: #fff;
+}
+
+.foremail {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color: black;
+    height: 60px;
+    color: #fff;
+}
+
+.message {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid orange;
+    background-color: black;
+    height: 100px;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+}
+
+.forsubmit {
+    background-color: orange;
+    padding: 15px;
+    color: #fff;
+    margin: 10px 0px 25px 15px;
+}
+
+.forform {
+    border: 1px solid black;
+}
+
+.foradspan {
+    color: orange;
+    margin-left: 3px;
+}
+
+.endhr {
+    border: 2px solid orange;
+}
+
+.map {
+    width: 100%;
+    height: 210px;
+}
+
+.section_8 {
+    background-color: #060405;
+}
+
+.main_8 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.otaquti {
+    display: flex;
+}
+
+.fix {
+    color: #fff;
+}
+
+.oxirgiquti {
+    width: calc(100%/2);
+}
+
+.fix1 {
+    text-align: end;
+}
+
+.enda {
+    color: orange;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.pd-1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
